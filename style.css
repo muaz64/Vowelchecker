@@ -4,10 +4,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right, #000000 , #c474b3 );
+    background-color:  #270420 ;
 }
 .container {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #210325;
     backdrop-filter: blur(10px);
     width: 550px;
     height: 500px;
@@ -22,10 +22,10 @@ body {
 }
 @keyframes neonGlow {
     from {
-        box-shadow: 0px 0px 10px rgba(0, 0, 0,0.2);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0,0.2);
     }
     to {
-        box-shadow: 0px 0px 20px #332d50, 0px 0px 30px #cec8ec, 0px 0px 20px #352292;
+        box-shadow: 0px 0px 5px #332d50, 0px 0px 10px #cec8ec, 0px 0px 20px #352292;
     }
 }
 h1 {
@@ -41,7 +41,7 @@ textarea {
     display: block;
     font-size: 24px;
     padding: 20px;
-    color: rgb(0,0,0);
+    color: #000000;
     border: 1px solid #dddddd;
     border-radius: 5px;
     resize: none;
@@ -58,7 +58,7 @@ textarea {
     }
 }
 button {
-    color: #ffffff;
+    
     padding: 15px 30px;
     width: 100%; /* Modified to occupy full width */
     max-width: 500px; /* Added max-width */
@@ -77,6 +77,8 @@ button:hover {
 #result {
     font-size: 20px;
     margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
     color: #ffffff;
     animation: neonGlow 1s infinite alternate;
 }
