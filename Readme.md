@@ -3,7 +3,7 @@
 
 A sleek, neon-themed web application designed to count the number of vowels in a given text. Built with HTML, CSS, and JavaScript, this tool demonstrates modern web development techniques and thoughtful UI design.
 
-![Vowel Checker Screenshot](./Screenshot_15-1-2025_164539_127.0.0.1.jpeg)
+![Vowel Checker Screenshot](./Screenshot_15-1-2025_172730_127.0.0.1.jpeg)
 
 ---
 
